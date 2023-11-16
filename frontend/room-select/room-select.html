@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="device-width, intial-scale=1.0">
+        <title>chat room</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="room-select.css"> 
+    </head>
+
+    <body>
+        <!-- <div class="page-head">
+            <header>
+                <img src="/Users/alishapradhan/Documents/COLLEGE/2 YEAR/CSW-1/PROJECT-1/frontend/mainlogo.png">
+                insert login and home contact bar
+            </header>
+        </div> -->
+        <div class="container">
+            <div class="navigation-bar">
+                <nav>
+                    <ul>
+                        <li><button type="button" id="home"><i class='bx bx-home'></i></button></li>
+                        <li><button type="button" id="chat"><i class='bx bx-conversation'></i></button></li>
+                        <li><button type="button" id="call"><i class='bx bx-phone-call' ></i></button></li>
+                        <li><button type="button" id="user"><i class='bx bx-user'></i></button></li>
+                        <li><button type="button" id="folder"><i class='bx bx-folder'></i></button></li>
+                        <li><button type="button" id="settings"><i class='bx bx-cog'></i></button></li>
+                    </ul>
+                    <!--inserting navigation bar-->
+                </nav>
+            </div>
+            <div class="create-room">
+                <div class="create-room-text">
+                    <a href="#">
+                        <h1>Create</h1>
+                        <span>Create room</span>
+                    </a>
+                </div>
+            </div>
+            <div class="join-room">
+                <div class="join-room-text">
+                    <h1>Join</h1>
+                    <span>Join room</span>
+                </div>
+                <div class="room-link-box">
+                    <label for="room-link">Enter room-id: </label>
+                    <input type="url" class="room-link" name="room-link" placeholder="enter room id">
+                </div>
+            </div>
+        </div>
+ 
+        <script src="room-select.js"></script> 
+    </body>
+</html>
